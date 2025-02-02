@@ -1,0 +1,167 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+.body {
+    margin: 0 auto;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Intro Text */
+.intro {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Amount Section */
+.Amount {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+
+/* Purchase Section */
+.purchase1 {
+    width: 90%;
+    max-width: 800px;
+    background-color: blue;
+    display: grid;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Content Box */
+.content2 {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Label and Heading */
+label, h2 {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Input Fields */
+input {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+#mySubmit, a {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #00ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mySubmit:hover {
+    background-color: #f00;
+    transform: scale(1.1);
+}
+
+/* Button Styling */
+.myBtn {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    color: white;
+    background-color: blue;
+    border: 2px solid rgb(32, 31, 31);
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.myBtn:hover {
+    background-color: limegreen;
+}
+
+/* Button Container */
+#containerBtn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Animated Header */
+@keyframes color {
+    0% {
+        transform: translateX(100px);
+        background-color: limegreen;
+    }
+    25% {
+        transform: translateX(-100px);
+        background-color: darkmagenta;
+    }
+    50% {
+        transform: translateX(100px);
+        background-color: black;
+    }
+    100% {
+        transform: translateX(-100px);
+        background-color: gold;
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .intro {
+        font-size: 2rem;
+    }
+    label, h2 {
+        font-size: 1.5rem;
+    }
+    input, #mySubmit, a {
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro {
+        font-size: 1.8rem;
+    }
+    .content2 {
+        padding: 15px;
+    }
+    label, h2 {
+        font-size: 1.3rem;
+    }
+    input, #mySubmit , a {
+        font-size: 0.9rem;
+        padding: 8px;
+        color: white;
+        text-decoration: none;
+    }
+}
