@@ -74,7 +74,7 @@ input {
     padding: 12px;
     font-size: 1.2rem;
     color: white;
-    background-color: #00ff;
+    background-color: red;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -84,7 +84,7 @@ input {
 }
 
 #mySubmit:hover {
-    background-color: #f00;
+    /* background-color: #f00; */
     transform: scale(1.1);
 }
 

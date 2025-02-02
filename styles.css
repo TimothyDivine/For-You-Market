@@ -10,8 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4f4f4;
+    background-image: url("assets\WhatsApp Image 2025-02-01 at 22.17.42_501e1984.jpg");
     padding: 20px;
+
 }
 
 /* Responsive Container */
@@ -30,6 +31,8 @@ h2 {
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
+
+
 
 form {
     display: flex;
